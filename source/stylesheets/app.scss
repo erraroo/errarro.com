@@ -1,1 +1,9 @@
+$brand-primary: #F23818;
+$navbar-default-link-color: $brand-primary;
+$navbar-default-bg: #ffffff;
 @import 'bootstrap';
+
+.btn-signup {
+  font-size: 1.5em;
+  padding: 1.0em 2em;
+}
