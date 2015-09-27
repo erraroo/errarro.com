@@ -1,4 +1,6 @@
 $brand-primary: #F23818;
+$brand-green: #2CC990;
+
 $navbar-default-link-color: $brand-primary;
 $navbar-default-bg: #ffffff;
 @import 'bootstrap';
@@ -15,4 +17,49 @@ $navbar-default-bg: #ffffff;
 .navbar-logo {
   height: 25px;
   width: 125px;
+}
+
+.btn {
+  border-bottom-width: 3px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.white-space {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+
+.pricing-panel {
+  border: 1px solid #efefef;
+  border-bottom: 3px solid #efefef;
+  border-radius: 3px;
+  padding: 20px 50px;
+  margin-bottom: 50px;
+
+  h3 {
+    margin-top: 0px;
+    border-bottom: 3px solid #efefef;
+    display: inline-block;
+    padding-bottom: 3px;
+  }
+
+  .price {
+    margin: 20px 0px;
+    font-size: 30px;
+
+    small {
+      font-size: 12px;
+    }
+  }
+
+  .btn {
+    margin-top: 20px;
+  }
+
+  &.pick {
+  }
 }
