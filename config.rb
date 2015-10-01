@@ -77,6 +77,7 @@ activate :gzip
 
 activate :blog do |blog|
   blog.prefix = "articles"
+  blog.layout = "blog"
 end
 
 activate :s3_sync do |s3_sync|

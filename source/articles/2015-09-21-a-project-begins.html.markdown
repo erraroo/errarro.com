@@ -1,12 +1,19 @@
 ---
 title: A Project Begins
-date: 2015-09-21 14:08 UTC
+date: 2015-09-21 16:20 UTC
 tags: emberjs, golang, side projects
-published: false
+published: true
 ---
 
-The time that I get to put into this is a blessing.
+Today we are excited to announce the Alpha of erraroo! Erraroo makes it
+painless to capture errors in your Ember applications.
 
-Things aren't built overnight, it takes time.
+## Open Source
 
-Looking for alpha testers, advice, and help.
+All the source behind erraroo is completely [open source](http://github.com/erraroo).
+
+## More features, frameworks planned for the future
+
+Right now our main focus is Ember.js.  We simplely love the project and
+want to make a tool that really helps developers find and fix bugs
+quickly.

@@ -1,0 +1,16 @@
+<% wrap_layout :layout do %>
+  <div class="row">
+    <div class="col-md-8">
+      <article>
+        <h1>
+          <a href="<%= current_article.url %>"><%= current_article.title %></a>
+          <time><%= current_article.date.strftime('%b %e %Y') %></time>
+        </h1>
+
+        <%= yield %>
+      </article>
+    </div>
+    <div class-"col-md-4">
+    </div>
+  </div>
+<% end %>
